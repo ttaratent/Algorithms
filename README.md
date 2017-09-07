@@ -24,5 +24,6 @@ quick-find | M N |
 quick-union | M N |
 weighted QU | N + M log N |
 QU + path compression | N + M log N |
-weighted QU + path compression | N + M lg* N |
+weighted QU + path compression | N + M lg* N |  
+
 M union-find operation on a set of N objects
