@@ -5,7 +5,8 @@ Cost model: Number of array accesses (for read or write).
 algorithm  | initialize | union | find |
 --------- | --------| ---------| ---------|
 quick-find  | N | N | 1 | 
-quick-union | N | N | N |
+quick-union | N | N+ | N |
+weighted QU | N | lgN+ | lgN |
 
 quick_find:order of growth of number of array accesses.
 
