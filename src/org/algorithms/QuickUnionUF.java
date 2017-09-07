@@ -15,7 +15,7 @@ public class QuickUnionUF {
 	}
 	
 	//if the value is equal to the index, it's the root
-	//set the root
+	//to get the root
 	private int root(int i) {
 		while (i != id[i]) i = id[i];
 		return i;
