@@ -1,4 +1,4 @@
-package org.algorithms;
+package org.algorithms.part1;
 
 /**
  * Quick Find union between two points
